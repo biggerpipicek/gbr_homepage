@@ -5,6 +5,10 @@
     switch($lang_code) {
         case 'cz':
             echo "CZ";
+            $lang = [
+                'home' => 'Home',
+                
+            ];
             break;
         case 'eng':
             echo "ENG";
