@@ -43,6 +43,23 @@ section#service > p {
     width: 80%;
 }
 
+section#service > nav {
+    display: grid;
+    grid-auto-flow: row;
+    list-style: none;
+    padding-left: 0;
+}
+
+section#service > nav > li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+section#service > nav > li::before {
+    content: '►';
+}
+
 /* FOOTER */
 
 footer {

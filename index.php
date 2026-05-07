@@ -34,9 +34,11 @@
     <section id="service" class="text-light">
         <h1>What We Provide</h1>
         <p>GREEN BRIDGE RECYCLING offers a tailored and comprehensive service for tungsten carbide scrap and HSS scrap, which guarantees our clients time savings.</p>
-        <a href="" class="link">SORTING</a>
-        <a href="" class="link">TRANSPORT</a>
-        <a href="" class="link">GLOBAL COLLECTING PROGRAM</a>
+        <nav>
+            <li class="nav-item"><a href="" class="nav-link">SORTING</a></li>
+            <li class="nav-item"><a href="" class="nav-link">TRANSPORT</a></li>
+            <li class="nav-item"><a href="" class="nav-link">GLOBAL COLLECTING PROGRAM</a></li>
+        </nav>
     </section>
 
     <!-- FOOTER -->

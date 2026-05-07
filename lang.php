@@ -15,4 +15,9 @@
         case 'pl':
             echo "PL";
             break;
+        default:
+            $lang = 'eng';
+            echo $lang;
+            echo "DEFAULT IS ENG";
+            break;
     }
