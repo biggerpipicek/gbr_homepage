@@ -29,10 +29,14 @@
         <h1>About the Company</h1>
         <p>GREEN BRIDGE RECYCLING is a European recycling company located in the Czech Republic, serving the CNC machining industry, aircraft manufacturing, defense, automotive, medical, and non-ferrous scrap warehouses by being involved in trading and sorting metal scrap.</p>
     </section>
-
+    <br>
     <!-- SERVICE SECTION -->
     <section id="service" class="text-light">
-
+        <h1>What We Provide</h1>
+        <p>GREEN BRIDGE RECYCLING offers a tailored and comprehensive service for tungsten carbide scrap and HSS scrap, which guarantees our clients time savings.</p>
+        <a href="" class="link">SORTING</a>
+        <a href="" class="link">TRANSPORT</a>
+        <a href="" class="link">GLOBAL COLLECTING PROGRAM</a>
     </section>
 
     <!-- FOOTER -->

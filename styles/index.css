@@ -32,6 +32,17 @@ section#about-us > p {
     width: 80%;
 }
 
+/* SERVICE SECTION */
+section#service {
+    text-align: center;
+}
+
+section#service > p {
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
 /* FOOTER */
 
 footer {
