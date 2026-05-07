@@ -1,0 +1,44 @@
+/* BODY & HEADER */
+
+body {
+    background-image: url("../imgs/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400vh;
+}
+
+header {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto auto;
+}
+
+header > nav {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+/* ABOUT US SECTION */
+section#about-us {
+    text-align: center;
+}
+
+section#about-us > p {
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    bottom: -300vh;
+    width: 100%;
+}
