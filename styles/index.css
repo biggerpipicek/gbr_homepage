@@ -44,22 +44,17 @@ section#service > p {
 }
 
 section#service > nav {
+    width: 250px;
     display: grid;
     grid-auto-flow: row;
     list-style: none;
     padding-left: 0;
+    margin: auto;
 }
 
 section#service > nav > li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    text-align: left;
 }
-
-section#service > nav > li::before {
-    content: '►';
-}
-
 /* FOOTER */
 
 footer {

@@ -1,8 +1,8 @@
 <?php
 
-    $lang = $_GET['lang'] ?? '';
+    $lang_code = $_GET['lang_code'] ?? '';
 
-    switch($lang) {
+    switch($lang_code) {
         case 'cz':
             echo "CZ";
             break;
@@ -16,8 +16,8 @@
             echo "PL";
             break;
         default:
-            $lang = 'eng';
-            echo $lang;
+            $lang_code = 'eng';
+            echo $lang_code;
             echo "DEFAULT IS ENG";
             break;
     }

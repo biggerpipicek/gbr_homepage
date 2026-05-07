@@ -1,3 +1,6 @@
+<?php
+    include 'lang.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +25,12 @@
             <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
             <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
         </nav>
+        <div class=" lang-buttons">
+            <a href="?lang_code=cz" class="btn text-light">CZ</a>
+            <a href="?lang_code=eng" class="btn text-light">ENG</a>
+            <a href="?lang_code=ger" class="btn text-light">GER</a>
+            <a href="?lang_code=pl" class="btn text-light">PL</a>
+        </div>
     </header>
     <br>
     <!-- ABOUT US SECTION -->
@@ -35,9 +44,9 @@
         <h1>What We Provide</h1>
         <p>GREEN BRIDGE RECYCLING offers a tailored and comprehensive service for tungsten carbide scrap and HSS scrap, which guarantees our clients time savings.</p>
         <nav>
-            <li class="nav-item"><a href="" class="nav-link">SORTING</a></li>
-            <li class="nav-item"><a href="" class="nav-link">TRANSPORT</a></li>
-            <li class="nav-item"><a href="" class="nav-link">GLOBAL COLLECTING PROGRAM</a></li>
+            <li class="nav-item"><a href="" class="nav-link">► SORTING</a></li>
+            <li class="nav-item"><a href="" class="nav-link">► TRANSPORT</a></li>
+            <li class="nav-item"><a href="" class="nav-link">► GLOBAL COLLECTING PROGRAM</a></li>
         </nav>
     </section>
 
